@@ -1,0 +1,5 @@
+stdID : 01 score : 49
+stdID : 02 score : 55
+stdID : 03 score : 68
+stdID : 04 score : 76
+stdID : 05 score : 98
