@@ -42,3 +42,47 @@ if d >= 5 :
     print("เหรียญ 5 บาท 1 เหรียญ / เหรียญ 1 บาท",d-5,"เหรียญ")
 else :
     print("เหรียญ 1 บาท ",d," เหรียญ") 
+
+# other version
+# money = int(input("Enter money: "))
+# temp = 0
+
+# if money >= 1000:
+#     temp = money//1000
+#     print("1000("+str(temp)+")", end=', ')
+#     money = money%1000
+
+# if money >= 500:
+#     print("500(1)", end=', ')
+#     money = money%500
+
+# if money < 500:
+#     if money >= 100:
+#         temp = money//100
+#         print("100("+str(temp)+")", end=', ')
+#         money = money%100
+
+# if money < 100:
+#     if money >= 50:
+#         print("50(1)", end=', ')
+#         money = money%50
+
+# if money < 50:
+#     if money>=20:
+#         temp = money//20
+#         print("20("+str(temp)+")", end=', ')
+#         money = money%20
+
+# if money < 20:
+#     if money>=10:
+#         print("10(1)", end=', ')
+#         money = money%10
+
+# if money < 10:
+#     if money>=5:
+#         print("5(1)", end=', ')
+#         money = money%5
+#         if money!=0:
+#             print("1("+str(money)+")")
+#     elif money!=0:
+#         print("1("+str(money)+")")

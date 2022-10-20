@@ -7,8 +7,9 @@ print(type(y))
 print(type(z))
 
 # บวกเลข
-result1 = x+y  # int + float
+result1 = x+y  # int + float = float
 print(result1) # 10+3.14 = 13.14
+print(type(result1))
 
 '''
 result2 = x+z  # int + string
